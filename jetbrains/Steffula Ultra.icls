@@ -1,11 +1,11 @@
-<scheme name="Steffula PyCharm" version="142" parent_scheme="Darcula">
+<scheme name="Steffula Ultra" version="142" parent_scheme="Darcula">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2020-08-09T22:26:28</property>
-    <property name="ide">Python</property>
-    <property name="ideVersion">2020.2.0.0</property>
-    <property name="modified">2020-08-09T22:26:33</property>
-    <property name="originalScheme">Steffula PyCharm</property>
+    <property name="created">2020-12-29T13:13:18</property>
+    <property name="ide">idea</property>
+    <property name="ideVersion">2020.3.0.0</property>
+    <property name="modified">2020-12-29T13:13:25</property>
+    <property name="originalScheme">Steffula Ultra</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
   <font>
@@ -13,7 +13,7 @@
     <option name="EDITOR_FONT_SIZE" value="13" />
   </font>
   <font>
-    <option name="EDITOR_FONT_NAME" value="DejaVu Sans Mono" />
+    <option name="EDITOR_FONT_NAME" value="Symbola" />
     <option name="EDITOR_FONT_SIZE" value="13" />
   </font>
   <option name="EDITOR_LIGATURES" value="true" />
@@ -22,10 +22,9 @@
     <option name="EDITOR_FONT_SIZE" value="13" />
   </console-font>
   <console-font>
-    <option name="EDITOR_FONT_NAME" value="DejaVu Sans Mono" />
+    <option name="EDITOR_FONT_NAME" value="Symbola" />
     <option name="EDITOR_FONT_SIZE" value="13" />
   </console-font>
-  <option name="CONSOLE_LIGATURES" value="true" />
   <colors>
     <option name="DELETED_LINES_COLOR" value="8f5247" />
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="374752" />
@@ -69,7 +68,7 @@
     </option>
     <option name="BUILDOUT.KEY">
       <value>
-        <option name="FOREGROUND" value="aa4926" />
+        <option name="FOREGROUND" value="ff6736" />
       </value>
     </option>
     <option name="BUILDOUT.SECTION_NAME">
@@ -78,13 +77,36 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
+    <option name="CMD_ENV_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="b3ffff" />
+      </value>
+    </option>
+    <option name="CMD_ENV_VARIABLE_DEFINITION">
+      <value>
+        <option name="FOREGROUND" value="b3ffff" />
+      </value>
+    </option>
+    <option name="CMD_EXPRESSION">
+      <value />
+    </option>
+    <option name="CMD_LABEL">
+      <value>
+        <option name="FOREGROUND" value="9999ff" />
+      </value>
+    </option>
+    <option name="CMD_LABEL_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="9999ff" />
+      </value>
+    </option>
     <option name="COFFEESCRIPT.CLASS_NAME">
       <value>
         <option name="FOREGROUND" value="ffff" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
-    <option name="COFFEESCRIPT.GLOBAL_VARIABLE" baseAttributes="JS.GLOBAL_VARIABLE" />
+    <option name="COFFEESCRIPT.GLOBAL_VARIABLE" baseAttributes="" />
     <option name="COFFEESCRIPT.REGULAR_EXPRESSION_CONTENT">
       <value>
         <option name="FOREGROUND" value="ffa6" />
@@ -387,6 +409,12 @@
         <option name="ERROR_STRIPE_COLOR" value="8f5247" />
       </value>
     </option>
+    <option name="DIFF_INSERTED">
+      <value>
+        <option name="BACKGROUND" value="294436" />
+        <option name="ERROR_STRIPE_COLOR" value="8f8e47" />
+      </value>
+    </option>
     <option name="DJANGO_COMMENT">
       <value>
         <option name="FOREGROUND" value="565656" />
@@ -459,7 +487,6 @@
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
-    <option name="GHERKIN_REGEXP_PARAMETER" baseAttributes="DEFAULT_PARAMETER" />
     <option name="HAML_CLASS">
       <value>
         <option name="FOREGROUND" value="ffff00" />
@@ -473,11 +500,7 @@
       </value>
     </option>
     <option name="HTML_ATTRIBUTE_NAME" baseAttributes="DEFAULT_ATTRIBUTE" />
-    <option name="HTML_ATTRIBUTE_VALUE">
-      <value>
-        <option name="FOREGROUND" value="dcaf88" />
-      </value>
-    </option>
+    <option name="HTML_ATTRIBUTE_VALUE" baseAttributes="DEFAULT_STRING" />
     <option name="HTML_CODE">
       <value>
         <option name="FOREGROUND" value="a9b7c6" />
@@ -515,6 +538,11 @@
     <option name="HYPERLINK_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="287bde" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="IDENTIFIER_UNDER_CARET_ATTRIBUTES">
+      <value>
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -556,7 +584,47 @@
         <option name="FOREGROUND" value="ff6736" />
       </value>
     </option>
+    <option name="JUPYTER_CELL_MARKER">
+      <value>
+        <option name="FOREGROUND" value="9999ff" />
+      </value>
+    </option>
+    <option name="JUPYTER_SELECTED_CELL">
+      <value />
+    </option>
     <option name="LESS_VARIABLE" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="LOGCAT_ASSERT_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="0" />
+        <option name="BACKGROUND" value="ff5252" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="LOGCAT_DEBUG_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="a8a8ff" />
+      </value>
+    </option>
+    <option name="LOGCAT_ERROR_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="ffa6a6" />
+      </value>
+    </option>
+    <option name="LOGCAT_INFO_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="99eeff" />
+      </value>
+    </option>
+    <option name="LOGCAT_VERBOSE_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="a6a6a6" />
+      </value>
+    </option>
+    <option name="LOGCAT_WARNING_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="ffffa6" />
+      </value>
+    </option>
     <option name="LOG_DEBUG_OUTPUT">
       <value>
         <option name="FOREGROUND" value="a6a6a6" />
@@ -569,17 +637,42 @@
     </option>
     <option name="LOG_INFO_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="9999ff" />
+        <option name="FOREGROUND" value="99eeff" />
       </value>
     </option>
     <option name="LOG_VERBOSE_OUTPUT">
       <value>
-        <option name="FOREGROUND" value="ffa6ff" />
+        <option name="FOREGROUND" value="a8a8ff" />
       </value>
     </option>
     <option name="LOG_WARNING_OUTPUT">
       <value>
         <option name="FOREGROUND" value="ffffa6" />
+      </value>
+    </option>
+    <option name="MAKEFILE_FUNCTION">
+      <value>
+        <option name="FOREGROUND" value="e6e68a" />
+      </value>
+    </option>
+    <option name="MAKEFILE_LINE_SPLIT">
+      <value />
+    </option>
+    <option name="MAKEFILE_PREREQUISITE">
+      <value>
+        <option name="FOREGROUND" value="dcaf88" />
+      </value>
+    </option>
+    <option name="MAKEFILE_SPECIAL_TARGET">
+      <value>
+        <option name="FOREGROUND" value="ffff00" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="MAKEFILE_TARGET">
+      <value>
+        <option name="FOREGROUND" value="ffff00" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="MAKO.SUBSTITUTION">
@@ -29552,7 +29645,7 @@
     <option name="PROPERTIES.INVALID_STRING_ESCAPE" baseAttributes="DEFAULT_INVALID_STRING_ESCAPE" />
     <option name="PROPERTIES.KEY">
       <value>
-        <option name="FOREGROUND" value="a84727" />
+        <option name="FOREGROUND" value="ff6736" />
       </value>
     </option>
     <option name="PROPERTIES.KEY_VALUE_SEPARATOR" baseAttributes="DEFAULT_OPERATION_SIGN" />
@@ -29584,7 +29677,7 @@
     <option name="PY.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
     <option name="PY.KEYWORD_ARGUMENT">
       <value>
-        <option name="FOREGROUND" value="a84727" />
+        <option name="FOREGROUND" value="ff6736" />
       </value>
     </option>
     <option name="PY.PREDEFINED_DEFINITION">
@@ -29646,13 +29739,19 @@
     </option>
     <option name="REST.BOLD">
       <value>
-        <option name="FOREGROUND" value="ffff82" />
+        <option name="FOREGROUND" value="ffbc82" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="REST.EXPLICIT">
+      <value>
+        <option name="FOREGROUND" value="e6e68a" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="REST.FIELD">
       <value>
-        <option name="FOREGROUND" value="a84727" />
+        <option name="FOREGROUND" value="ff6736" />
       </value>
     </option>
     <option name="REST.FIXED">
@@ -29679,6 +29778,7 @@
     <option name="REST.SECTION.HEADER">
       <value>
         <option name="FOREGROUND" value="99ffff" />
+        <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="RUNTIME_ERROR">
@@ -29689,7 +29789,7 @@
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
-    <option name="SASS_COMMENT" baseAttributes="CSS.COMMENT" />
+    <option name="SASS_COMMENT" baseAttributes="" />
     <option name="SASS_DEFAULT">
       <value>
         <option name="FOREGROUND" value="0" />
@@ -29722,7 +29822,7 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
-    <option name="SASS_VARIABLE" baseAttributes="DEFAULT_INSTANCE_FIELD" />
+    <option name="SASS_VARIABLE" baseAttributes="" />
     <option name="SQL_DATABASE_OBJECT">
       <value>
         <option name="FOREGROUND" value="ffff" />
@@ -29742,6 +29842,7 @@
     </option>
     <option name="TYPO">
       <value>
+        <option name="EFFECT_COLOR" value="53a65e" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -29751,6 +29852,11 @@
         <option name="BACKGROUND" value="ffff00" />
         <option name="ERROR_STRIPE_COLOR" value="ffff00" />
         <option name="EFFECT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="WRITE_IDENTIFIER_UNDER_CARET_ATTRIBUTES">
+      <value>
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="WRONG_REFERENCES_ATTRIBUTES">
@@ -29770,6 +29876,14 @@
     <option name="XML_TAG_NAME">
       <value>
         <option name="FOREGROUND" value="ff9640" />
+      </value>
+    </option>
+    <option name="XPATH.FUNCTION" baseAttributes="DEFAULT_FUNCTION_CALL" />
+    <option name="XPATH.KEYWORD" baseAttributes="DEFAULT_KEYWORD" />
+    <option name="XPATH.XPATH_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="XSLT_DIRECTIVE">
+      <value>
+        <option name="FOREGROUND" value="87ffff" />
       </value>
     </option>
     <option name="YAML_COMMENT">
