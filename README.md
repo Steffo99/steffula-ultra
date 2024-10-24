@@ -4,7 +4,7 @@
 
 # Steffula Ultra
 
-_Steffula theme for Visual Studio Code, inspired and based on the IntelliJ IDEA "Darcula" color theme_
+_Steffula theme for IntelliJ IDEA, inspired and based on the "Darcula" color theme_
 
 </div>
 
